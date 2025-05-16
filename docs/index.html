@@ -2,12 +2,16 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes"/>
   <style>
+    #bib {
+      margin: 1rem 0;
+    }
     #vis.vega-embed {
       width: 100%;
       display: flex;
     }
-
     #vis.vega-embed details,
     #vis.vega-embed details summary {
       position: relative;
@@ -30,6 +34,26 @@
     <button onClick="window.location.href='./embedding-clusters-9.html'"> 9 </button>
     <button onClick="window.location.href='./embedding-clusters-10.html'"> 10 </button>
   </div>
+
+  <div id="bib">
+    Paper: <strong>Quo Vadis, HCOMP? A Review of 12 Years of Research at the Frontier of Human Computation and Crowdsourcing</strong>.
+2025.
+Jonas OPPENLAENDER (University of Oulu, Finland),
+Ujwal GADIRAJU (Delft University of Technology, The Netherlands),
+Simo HOSIO (University of Oulu, Finland).
+<br />
+Bibtex:
+<code>@inproceedings{quovadis-hcomp,
+title={Quo Vadis, HCOMP? A Review of 12 Years of Research at the Frontier of Human Computation and Crowdsourcing},
+author={Jonas Oppenlaender and Ujwal Gadiraju and Simo Hosio},
+booktitle={ACM Collective Intelligence},
+series={CI '25},
+publisher={ACM},
+address={New York, NY, USA},
+year={2025}
+}</code>
+  </div>
+
 
   <div id="vis"></div>
   <script>
